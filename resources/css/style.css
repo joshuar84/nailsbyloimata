@@ -1,0 +1,245 @@
+
+html, body {
+    font-size: 20px;
+    background-color: lightpink;
+    font-family: 'Tangerine', cursive;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+body {
+    background-image: url("../images/Gold\ \(1\).jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    height: 2490px;
+}
+
+#flex-header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    color: rgb(233, 153, 197);
+    background-color: rgb(247, 215, 179);
+    border-bottom: 2px solid gray;
+}
+
+.logo {
+    width: 40px;
+    height: auto;
+}
+
+#photo1 {
+    display: flex;
+    position: relative;
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    padding: auto;
+    top: 200px;
+}
+
+#banner-heading {
+    position: relative;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+    width: 700px;
+    font-size: 2rem;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    top: 160px;
+}
+
+#name {
+    color: rgb(233, 153, 197);
+}
+
+.gallery-images {
+    width: 400px;
+    height: 350px;
+    margin: 20px;
+}
+
+#flex-gallery {
+    display: flex;
+    position: relative;
+    width: 900px;
+    top: 270px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+footer {
+    position: relative;
+    bottom: -400px;
+    height: 60px;
+    border-top: 2px solid gray;
+    background-color: rgb(247, 215, 179);
+}
+
+footer h3 {
+    position: relative;
+    float: right;
+    padding-right: 10px;
+    top: 5px;
+    margin: 0;
+}
+
+#whole_link {
+    position: relative;
+}
+#my_site_logo {
+    position: relative;
+    top: 5px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 425px) {
+    body, html {
+        width: 425px;
+        overflow-x: hidden;
+    }
+    #banner-heading {
+        font-size: 1.75rem;
+        width: 360px;
+        top: 170px;
+    }
+    
+    #flex-header {
+        position: fixed;
+        display: flex;
+        z-index: 10;
+        width: 425px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: .75rem;
+        height: 120px;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    h1 {
+        width: 360px;
+        margin: 0;
+        padding: 0;
+    }
+    #photo1 {
+        top: 160px;
+        width: 375px;
+    }
+    #flex-gallery {
+        top: 70px;
+        width: 425px;
+    }
+    .gallery-images {
+        width: 340px;
+        height: 300px;
+        margin: 20px;
+    }
+}
+@media screen and (max-width: 375px) {
+    body, html {
+        width: 375px;
+        overflow-x: hidden;
+    }
+    #banner-heading {
+        font-size: 1.75rem;
+        width: 360px;
+        top: 170px;
+    }
+    #flex-header {
+        position: fixed;
+        display: flex;
+        z-index: 10;
+        width: 375px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: .75rem;
+        height: 120px;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    #flex-gallery {
+        top: 70px;
+        width: 425px;
+    }
+    h1 {
+        width: 350px;
+        margin: 0;
+        padding: 0;
+    }
+    #photo1 {
+        top: 160px;
+        width: 300px;
+    }
+    #flex-gallery {
+        width: 375px;
+    }
+    .gallery-images {
+        width: 300px;
+        height: 270px;
+        margin: 20px;
+    }
+}
+@media screen and (max-width: 320px) {
+    body, html {
+        width: 320px;
+        overflow-x: hidden;
+    }
+    #banner-heading {
+        font-size: 1.75rem;
+        width: 290px;
+        top: 170px;
+    }
+    #flex-header {
+        position: fixed;
+        display: flex;
+        z-index: 10;
+        width: 320px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: .75rem;
+        height: 120px;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    #flex-gallery {
+        top: 70px;
+        width: 425px;
+    }
+    h1 {
+        font-size: 1.25rem;
+        width: 350px;
+        margin: 0;
+        padding: 0;
+    }
+    #photo1 {
+        top: 160px;
+        width: 300px;
+    }
+    #flex-gallery {
+        width: 300px;
+    }
+    .gallery-images {
+        width: 280px;
+        height: 230px;
+        margin: 20px;
+    }
+}

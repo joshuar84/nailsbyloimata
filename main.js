@@ -1,0 +1,1 @@
+alert("Must live in Las Vegas, Nevada area. Click ok to proceed.")
